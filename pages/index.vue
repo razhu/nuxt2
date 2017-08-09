@@ -4,7 +4,7 @@
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Welcome to the JavaScript SSR Blog.
+            nuxtjs + bulma + macanas
           </h1>
           <h2 class="subtitle">
             Hope you find something you like.
