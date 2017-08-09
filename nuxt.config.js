@@ -39,5 +39,8 @@ module.exports = {
         });
       }
     }
-  }
+  },
+  modules: [
+    '@nuxtjs/sitemap'
+  ]
 };
