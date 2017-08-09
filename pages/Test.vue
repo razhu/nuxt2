@@ -10,11 +10,13 @@
 export default {
   data () {
     return {
-      myTitle: 'rock'
+      myTitle: 'rock and roll '
     }
   },
-  head: {
-    title: this.myTitle
+  head () {
+    return {
+      title: this.myTitle
+    }
   }
 }
 </script>

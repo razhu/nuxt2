@@ -15,14 +15,14 @@
 
   export default {
     validate ({ params }) {
-      return /^\d+$/.test(params.id)
+      return /^[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*$/.test(params.slug)
     },
     asyncData ({ params }, callback) {
-      let post = posts.find(post => post.id === parseInt(params.id))
+      let post = posts.find(post => post.slug === params.slug)
       if (post) {
         callback(null, { post })
       } else {
-        // callback({ statusCode: 404, message: 'Post not found' })
+        callback(null, { statusCode: 404, message: 'Post not found' })
       }
     },
     head () {
