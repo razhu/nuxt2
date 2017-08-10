@@ -6,7 +6,8 @@
         "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
         "author": "Jane Doe",
         "published": "08:00 - 07/06/2017",
-        "slug": "slug-number-1"
+        "slug": "slug-number-1",
+        "keywords": "node, js, frontend, keywordForPost1"
     },
     {
         "id": 3,
@@ -15,7 +16,8 @@
         "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
         "author": "Jane Doe",
         "published": "17:00 - 06/06/2017",
-        "slug": "slug-number-2"
+        "slug": "slug-number-2",
+        "keywords": "node, js, frontend, keywordForPost2"
     },
     {
         "id": 2,
@@ -24,7 +26,8 @@
         "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
         "author": "Jane Doe",
         "published": "13:00 - 06/06/2017",
-        "slug": "slug-number-3"
+        "slug": "slug-number-3",
+        "keywords": "node, js, frontend, keywordForPost3"
     },
     {
         "id": 1,
@@ -33,6 +36,7 @@
         "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
         "author": "John Doe",
         "published": "11:00 - 06/06/2017",
-        "slug": "slug-number-4"
+        "slug": "slug-number-4",
+        "keywords": "node, js, frontend, keywordForPost4"
     }
 ]

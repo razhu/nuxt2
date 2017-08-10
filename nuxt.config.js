@@ -8,7 +8,8 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: 'Nuxt.js project' },
+      { hid: 'keywords', name: 'keywords', content: 'vuejs, nuxt, javascript, tutorials, development, software, ramiro' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -29,6 +30,7 @@ module.exports = {
     /*
     ** Run ESLINT on save
     */
+    vendor: ['vue-notifications'],
     extend (config, ctx) {
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
@@ -42,5 +44,6 @@ module.exports = {
   },
   modules: [
     '@nuxtjs/sitemap'
-  ]
+  ],
+  plugins: ['~plugins/vue-notifications']
 };

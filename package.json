@@ -13,7 +13,9 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0-rc3"
+    "@nuxtjs/sitemap": "0.0.3",
+    "nuxt": "^1.0.0-rc3",
+    "vue-notifications": "^0.8.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

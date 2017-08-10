@@ -33,6 +33,11 @@
             hid: 'description',
             name: 'description',
             content: this.post.summary
+          },
+          {
+            hid: 'keywords',
+            name: 'keywords',
+            content: this.post.keywords
           }
         ]
       }
