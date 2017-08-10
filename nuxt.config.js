@@ -43,7 +43,8 @@ module.exports = {
     }
   },
   modules: [
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/pwa'
   ],
   plugins: ['~plugins/vue-notifications']
 };
