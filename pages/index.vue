@@ -10,7 +10,9 @@
             {{$store.state.personalMessage}}
             {{$store.state.counter}}
           </h2>
-          <button type="" @click="$store.commit('increment')">incrmeent</button>
+
+          <button type="" @click="$store.commit('increment')">incrmeent mutations</button>
+          <button type="" @click="$store.dispatch('incrementAction')">incrmeent actions</button>
         </div>
       </div>
     </section>

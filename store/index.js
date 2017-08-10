@@ -12,23 +12,13 @@ const store = () => {
       increment (state) {
         state.counter++
       }
+    },
+    actions: {
+      incrementAction ({commit}) {
+        commit('increment')
+      }
     }
   })
 }
 export default store
 
-// import Vuex from 'vuex'
-
-// const store = new Vuex.Store({
-//   state: {
-//     counter: 0,
-//     personalMessage: 'hi there this is ramiro'
-//   },
-//   mutations: {
-//     increment (state) {
-//       state.counter++
-//     }
-//   }
-// })
-
-// export default store
