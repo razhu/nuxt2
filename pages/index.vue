@@ -7,8 +7,10 @@
             nuxtjs + bulma + macanas
           </h1>
           <h2 class="subtitle">
-            Hope you find something you like.
+            {{$store.state.personalMessage}}
+            {{$store.state.counter}}
           </h2>
+          <button type="" @click="$store.commit('increment')">incrmeent</button>
         </div>
       </div>
     </section>
